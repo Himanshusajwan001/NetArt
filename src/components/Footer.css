@@ -1,20 +1,18 @@
 .footer {
-    padding: 10px;
-    padding: 60px 200px;
+    /* padding: 10px; */
+    padding: 60px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     background-color: red;
+}
+@media screen and (max-width: 620px){
+    .footer__p{
+        font-size: 8px;
+        margin: 2px;
+    }
 }
 
 .footer > div{
     color : white;
-}
-.fa-phone-alt{
-    margin: 5px;
-}
-.fa-facebook{
-    margin: 5px;
-}
-.fa-globe{
-    margin: 5px;
 }
