@@ -29,8 +29,9 @@
     display: block;
 }
 .segments > h5{
+    font-size: 12px ;
     margin: 20px auto;
-    width: 30%;
+    width: 35%;
 }
 .product__p {
     width: 90%;
@@ -42,16 +43,21 @@ h5 + p + p{
 }
 @media screen and (max-width: 875px){
 .segment > h5{
-    font-size: 12px;
+    font-size: 11px;
     margin: 20px auto;
     min-width: 50%;
+}
+.product__caption{
+    font-size: 10px;
+    width: 70%;
+    margin: 10px auto;
 }
 }
 @media screen and (max-width: 650px){
     .segments > h5{
         font-size: 8px;
         margin: 20px auto;
-        min-width: 70%;
+        min-width: 45%;
     }
     .product__p{
         font-size: 8px;
