@@ -49,13 +49,18 @@ h5 + p + p{
 }
 @media screen and (max-width: 650px){
     .segments > h5{
-        font-size: 10px;
+        font-size: 8px;
         margin: 20px auto;
-        min-width: 430px;
+        min-width: 70%;
     }
     .product__p{
-        font-size: 9px;
+        font-size: 8px;
         margin: 20px auto;
         width: 90%;
     }   
+    .product__caption{
+        font-size: 9px;
+        width: 50%;
+        margin: 10px auto;
+    }
 }

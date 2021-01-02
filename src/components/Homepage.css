@@ -37,7 +37,17 @@
   .info > h4{
     font-size: 10px;
   }
-
+@media screen and (max-width: 650px){
+  .homepage__li{
+    font-size: 9px;
+  }
+  .homepage__h{
+    font-size: 9px;
+  }
+  .homepage__caption{
+    font-size: 9px;
+  }
+}
   }
   @media screen and (max-width: 425px){
       #photo1 {

@@ -8,7 +8,7 @@ function Products() {
                 <p class="product__p">INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.</p>
                 <figure>
                     <img src={photo3} id = "photo3" alt="products"></img>
-                    <figcaption> Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors</figcaption>
+                    <figcaption class="product__caption"> Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors</figcaption>
                 </figure>
                 <hr class="solid"></hr>
                 <div class="segments">
