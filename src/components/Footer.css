@@ -1,0 +1,20 @@
+.footer {
+    padding: 10px;
+    padding: 60px 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.footer > div{
+    color : white;
+}
+.fa-phone-alt{
+    margin: 5px;
+}
+.fa-facebook{
+    margin: 5px;
+}
+.fa-globe{
+    margin: 5px;
+}

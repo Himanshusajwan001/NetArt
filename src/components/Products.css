@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+  }
+  .product__container {
+      display: block;
+      background-color: rgb(248, 248, 179);
+  }
+  p{
+      font-size: 13px;
+      margin: 30px 10px 20px 24px;
+      font-weight: 700;
+  }
+
+  #photo3{
+      max-width: 80%;
+      padding: 30px  0 30px 10%;
+  }
+  
+  #photo3 + figcaption {
+      margin: 20px 20px 0 25%;
+  }
+  hr.solid {
+    border-top: 3px solid red;
+    margin: 30px 5%;  
+}
+div > h5{
+    padding: 0 35%;
+}
+div > p {
+    margin: 0 100px;
+}
+
+h5 + p + p{
+    margin: 0 25% 50px 25%;
+}
