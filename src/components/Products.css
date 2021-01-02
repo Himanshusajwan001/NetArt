@@ -25,24 +25,37 @@
   hr.solid {
     border-top: 3px solid red;
     margin: 30px 5%;  
+}.segment{
+    display: block;
 }
 .segments > h5{
-    padding: 20px 100px;
+    margin: 20px auto;
+    width: 30%;
 }
 .product__p {
-    margin: 0 100px;
+    width: 90%;
+    margin: 20px auto;
 }
 
 h5 + p + p{
     margin: 0 25% 50px 25%;
 }
+@media screen and (max-width: 875px){
+.segment > h5{
+    font-size: 12px;
+    margin: 20px auto;
+    min-width: 50%;
+}
+}
 @media screen and (max-width: 650px){
     .segments > h5{
-        font-size: 11px;
-        padding: 0 10%;
+        font-size: 10px;
+        margin: 20px auto;
+        min-width: 430px;
     }
     .product__p{
         font-size: 9px;
-        margin: 10px 20px;
+        margin: 20px auto;
+        width: 90%;
     }   
 }
