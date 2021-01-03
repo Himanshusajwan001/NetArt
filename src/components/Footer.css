@@ -1,18 +1,50 @@
 .footer {
     /* padding: 10px; */
-    padding: 60px 20px;
+    padding: 60px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     background-color: red;
+    font-size: 11px;
+}
+#toll__free{
+    display: flex;
+
 }
 @media screen and (max-width: 620px){
     .footer__p{
         font-size: 8px;
         margin: 2px;
     }
+    .footer{
+        padding: 20px;
+        width:100%;
+    }
+}
+@media screen and (max-width: 280px){
+.footer{
+    display:block;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 100%;
+}
+.footer > div {
+padding: 5px;
+}
 }
 
 .footer > div{
     color : white;
+    max-width: auto;
+}
+
+#fb__link {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
+#site__link {
+    text-decoration: none;
+    text-decoration-line: none;
+    color:white;
 }
