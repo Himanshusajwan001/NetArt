@@ -84,14 +84,19 @@
     max-width: auto;
 }
 }
-@media screen and (max-width: 180px){
+@media screen and (max-width: 200px){
 #photo1{
-  margin: calc(10% + 400px) 0 60px 0;
+  margin: 350px 0 60px 0;
   max-width: auto;
   max-height: 120px;
 }
 }
 
+@media screen and (max-width: 170px){
+  #photo1{
+    margin: 450px 0 0 0;
+  }
+}
 
   li{
       font-size: 14px;
